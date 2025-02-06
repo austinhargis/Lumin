@@ -1024,10 +1024,10 @@ public class Register extends LogicElement {
 			cancel.setBackground(Color.pink);
 			okCancel.add(cancel);
 			JButton help = new JButton("Help");
-			if (JLSInfo.hb == null)
-				Util.noHelp(help);
-			else
-				JLSInfo.hb.enableHelpOnButton(help,"register",null);
+//			if (JLSInfo.hb == null)
+//				Util.noHelp(help);
+//			else
+//				JLSInfo.hb.enableHelpOnButton(help,"register",null);
 			okCancel.add(help);
 			window.add(okCancel);
 			getRootPane().setDefaultButton(ok);

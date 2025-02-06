@@ -613,10 +613,10 @@ public final class TruthTable extends LogicElement implements Printable {
 			cancel.setBackground(Color.pink);
 			okCancel.add(cancel);
 			JButton help = new JButton("Help");
-			if (JLSInfo.hb == null)
-				Util.noHelp(help);
-			else
-				JLSInfo.hb.enableHelpOnButton(help,"truth",null);
+//			if (JLSInfo.hb == null)
+//				Util.noHelp(help);
+//			else
+//				JLSInfo.hb.enableHelpOnButton(help,"truth",null);
 			okCancel.add(help);
 			other.add(okCancel,BorderLayout.SOUTH);
 			window.add(other,BorderLayout.SOUTH);

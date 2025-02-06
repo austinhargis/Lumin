@@ -1079,7 +1079,7 @@ public abstract class SimpleEditor extends JPanel {
 				text = image == null ? "DISPLAY" : "";
 				act = new AbstractAction(text,image) {
 					public void actionPerformed(ActionEvent event) {
-						setup(new jls.elem.Display(circuit),
+						setup(new org.hargisa.elem.Display(circuit),
 								event.getSource() instanceof JButton);
 					}
 				};

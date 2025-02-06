@@ -666,10 +666,10 @@ public class TriState extends LogicElement {
 			cancel.setBackground(Color.pink);
 			okCancel.add(cancel);
 			JButton help = new JButton("Help");
-			if (JLSInfo.hb == null)
-				Util.noHelp(help);
-			else
-				JLSInfo.hb.enableHelpOnButton(help,"TRISTATE",null);
+//			if (JLSInfo.hb == null)
+//				Util.noHelp(help);
+//			else
+//				JLSInfo.hb.enableHelpOnButton(help,"TRISTATE",null);
 			okCancel.add(help);
 			window.add(okCancel);
 			

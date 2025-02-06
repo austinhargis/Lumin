@@ -526,10 +526,10 @@ public class Constant extends LogicElement implements ActionListener {
 			cancel.setBackground(Color.pink);
 			okCancel.add(cancel);
 			JButton help = new JButton("Help");
-			if (JLSInfo.hb == null)
-				Util.noHelp(help);
-			else
-				JLSInfo.hb.enableHelpOnButton(help,"const",null);
+//			if (JLSInfo.hb == null)
+//				Util.noHelp(help);
+//			else
+//				JLSInfo.hb.enableHelpOnButton(help,"const",null);
 			okCancel.add(help);
 			window.add(okCancel);
 			getRootPane().setDefaultButton(ok);
@@ -810,10 +810,10 @@ public class Constant extends LogicElement implements ActionListener {
 			cancel.setBackground(Color.pink);
 			okCancel.add(cancel);
 			JButton help = new JButton("Help");
-			if (JLSInfo.hb == null)
-				Util.noHelp(help);
-			else
-				JLSInfo.hb.enableHelpOnButton(help,"const",null);
+//			if (JLSInfo.hb == null)
+//				Util.noHelp(help);
+//			else
+//				JLSInfo.hb.enableHelpOnButton(help,"const",null);
 			okCancel.add(help);
 			window.add(okCancel);
 			getRootPane().setDefaultButton(ok);

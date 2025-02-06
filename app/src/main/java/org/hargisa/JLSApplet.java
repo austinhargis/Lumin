@@ -12,6 +12,7 @@ import java.io.*;
 import java.util.*;
 import java.util.zip.ZipInputStream;
 
+import javax.help.HelpSet;
 import javax.swing.*;
 import javax.swing.event.*;
 //import javax.help.*;
@@ -416,7 +417,7 @@ public final class JLSApplet extends JApplet implements ActionListener, ChangeLi
 		JLSInfo.hb = mainHS.createHelpBroker();
 		JMenuItem contents = new JMenuItem("Contents");
 		help.add(contents);
-		contents.addActionListener(new CSH.DisplayHelpFromSource(JLSInfo.hb));
+//		contents.addActionListener(new CSH.DisplayHelpFromSource(JLSInfo.hb));
 
 		return help;
 	} // end of helpMenu method

@@ -35,6 +35,8 @@ import java.util.zip.ZipInputStream;
 
 //import javax.help.CSH;
 //import javax.help.HelpSet;
+import javax.help.CSH;
+import javax.help.HelpSet;
 import javax.print.PrintService;
 import javax.swing.Box;
 import javax.swing.JColorChooser;
@@ -1003,7 +1005,7 @@ public class JLSStart extends JFrame implements ChangeListener {
 		}
 
 		JLSInfo.hb = mainHS.createHelpBroker();
-		contents.addActionListener(new CSH.DisplayHelpFromSource(JLSInfo.hb));
+//		contents.addActionListener(new CSH.DisplayHelpFromSource(JLSInfo.hb));
 		return help;
 	} // end of helpMenu method
 

@@ -362,12 +362,12 @@ public abstract class Group extends LogicElement {
 				Util.noHelp(help);
 			}
 			else {
-				if (type.equals("Unbundler")) {
-					JLSInfo.hb.enableHelpOnButton(help,"unbundle",null);
-				}
-				else {
-					JLSInfo.hb.enableHelpOnButton(help,"bundle",null);
-				}
+//				if (type.equals("Unbundler")) {
+//					JLSInfo.hb.enableHelpOnButton(help,"unbundle",null);
+//				}
+//				else {
+//					JLSInfo.hb.enableHelpOnButton(help,"bundle",null);
+//				}
 			}
 			okCancel.add(help);
 			window.add(okCancel);
@@ -569,12 +569,12 @@ public abstract class Group extends LogicElement {
 			if (JLSInfo.hb == null)
 				Util.noHelp(help);
 			else {
-				if (type.equals("unbundle")) {
-					JLSInfo.hb.enableHelpOnButton(help,"unbundle",null);
-				}
-				else {
-					JLSInfo.hb.enableHelpOnButton(help,"bundle",null);
-				}
+//				if (type.equals("unbundle")) {
+//					JLSInfo.hb.enableHelpOnButton(help,"unbundle",null);
+//				}
+//				else {
+//					JLSInfo.hb.enableHelpOnButton(help,"bundle",null);
+//				}
 			}
 			
 			okCancel.add(help);

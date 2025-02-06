@@ -919,10 +919,10 @@ public final class StateMachine extends LogicElement implements Printable {
 			cancel.setBackground(Color.pink);
 			okCancel.add(cancel);
 			JButton help = new JButton("Help");
-			if (JLSInfo.hb == null)
-				jls.Util.noHelp(help);
-			else
-				JLSInfo.hb.enableHelpOnButton(help,"stmach",null);
+//			if (JLSInfo.hb == null)
+//				org.hargisa.Util.noHelp(help);
+//			else
+//				JLSInfo.hb.enableHelpOnButton(help,"stmach",null);
 			okCancel.add(help);
 			bottom.add(okCancel);
 			getRootPane().setDefaultButton(ok);

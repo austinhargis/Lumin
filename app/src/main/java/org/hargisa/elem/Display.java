@@ -398,10 +398,10 @@ public class Display extends LogicElement {
 			cancel.setBackground(Color.pink);
 			okCancel.add(cancel);
 			JButton help = new JButton("Help");
-			if (JLSInfo.hb == null)
-				Util.noHelp(help);
-			else
-				JLSInfo.hb.enableHelpOnButton(help,"display",null);
+//			if (JLSInfo.hb == null)
+//				Util.noHelp(help);
+//			else
+//				JLSInfo.hb.enableHelpOnButton(help,"display",null);
 			okCancel.add(help);
 			window.add(okCancel);
 			getRootPane().setDefaultButton(ok);

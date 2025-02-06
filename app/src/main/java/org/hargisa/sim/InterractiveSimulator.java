@@ -112,12 +112,12 @@ public final class InterractiveSimulator extends Simulator {
 			action.add(print);
 		}
 
-		if (JLSInfo.hb != null) {
-			JLSInfo.hb.enableHelpOnButton(help,"inter.sim",null);
-		}
-		else {
-			Util.noHelp(help);
-		}
+//		if (JLSInfo.hb != null) {
+//			JLSInfo.hb.enableHelpOnButton(help,"inter.sim",null);
+//		}
+//		else {
+//			Util.noHelp(help);
+//		}
 		action.add(help);
 		toolBar.add(action,BorderLayout.WEST);
 

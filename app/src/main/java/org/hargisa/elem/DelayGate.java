@@ -214,10 +214,10 @@ public class DelayGate extends Gate {
 				cancel.setBackground(Color.pink);
 				okCancel.add(cancel);
 				JButton help = new JButton("Help");
-				if (JLSInfo.hb == null)
-					Util.noHelp(help);
-				else
-					JLSInfo.hb.enableHelpOnButton(help,"DELAY",null);
+//				if (JLSInfo.hb == null)
+//					Util.noHelp(help);
+//				else
+//					JLSInfo.hb.enableHelpOnButton(help,"DELAY",null);
 				okCancel.add(help);
 				window.add(okCancel);
 				getRootPane().setDefaultButton(ok);

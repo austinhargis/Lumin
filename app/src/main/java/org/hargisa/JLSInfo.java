@@ -52,6 +52,7 @@ public final class JLSInfo {
 	public static boolean imgexport = false;			// export image from command line
 	// TODO: Replace HelpBroker
 //	public static HelpBroker hb = null;
+	public static Object hb = null;
 	public enum Orientation { UP, DOWN, LEFT, RIGHT; }
 	public static Color gridColor = 
 		new Color(240,240,240);							// editor window grid
