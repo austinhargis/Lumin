@@ -1,5 +1,6 @@
 # Lumin - A JLS Fork
 Lumin is a modernized fork of JLS (Java Logic Simulator), originally developed by David Poplawski, Joshua Marshall, and others.  
+
 This project is licensed under the GNU General Public License v3.0.  
 For more details, see [LICENSE](./LICENSE).
 
