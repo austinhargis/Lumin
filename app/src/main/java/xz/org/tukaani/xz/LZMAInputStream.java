@@ -13,9 +13,9 @@ package xz.org.tukaani.xz;
 import java.io.InputStream;
 import java.io.DataInputStream;
 import java.io.IOException;
-import org.tukaani.xz.lz.LZDecoder;
-import org.tukaani.xz.rangecoder.RangeDecoderFromStream;
-import org.tukaani.xz.lzma.LZMADecoder;
+import xz.org.tukaani.xz.lz.LZDecoder;
+import xz.org.tukaani.xz.rangecoder.RangeDecoderFromStream;
+import xz.org.tukaani.xz.lzma.LZMADecoder;
 
 /**
  * Decompresses legacy .lzma files and raw LZMA streams (no .lzma header).

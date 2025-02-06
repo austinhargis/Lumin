@@ -1,8 +1,8 @@
 package jls;
 
-import jls.edit.*;
-import jls.elem.*;
-import jls.sim.*;
+import org.hargisa.edit.*;
+import org.hargisa.elem.*;
+import org.hargisa.sim.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.net.*;

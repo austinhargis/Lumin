@@ -10,7 +10,7 @@
 
 package org.tukaani.xz.lzma;
 
-import org.tukaani.xz.rangecoder.RangeCoder;
+import xz.org.tukaani.xz.rangecoder.RangeCoder;
 
 abstract class LZMACoder {
 	static final int POS_STATES_MAX = 1 << 4;

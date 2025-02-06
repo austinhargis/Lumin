@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 import javax.swing.JOptionPane;
 
-import jls.*;
-import jls.sim.*;
+import org.hargisa.*;
+import org.hargisa.sim.*;
 
 public abstract class SigSim extends LogicElement {
 

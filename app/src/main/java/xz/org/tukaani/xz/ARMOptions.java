@@ -10,7 +10,7 @@
 package xz.org.tukaani.xz;
 
 import java.io.InputStream;
-import org.tukaani.xz.simple.ARM;
+import xz.org.tukaani.xz.simple.ARM;
 
 /**
  * BCJ filter for little endian ARM instructions.

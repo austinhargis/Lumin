@@ -1,7 +1,7 @@
 package org.hargisa.elem;
 
-import jls.*;
-import jls.sim.*;
+import org.hargisa.*;
+import org.hargisa.sim.*;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -399,7 +399,7 @@ public class Adder extends LogicElement {
 	/**
 	 * Set the propagation delay in this element.
 	 * 
-	 * @param amount The new delay amount.
+	 * @param temp The new delay amount.
 	 */
 	public void setDelay(int temp) {
 		

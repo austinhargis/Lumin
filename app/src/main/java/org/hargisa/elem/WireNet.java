@@ -1,6 +1,6 @@
 package org.hargisa.elem;
 
-import jls.sim.*;
+import org.hargisa.sim.*;
 import java.awt.Rectangle;
 import java.util.*;
 

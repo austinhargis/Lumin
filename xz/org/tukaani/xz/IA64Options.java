@@ -10,7 +10,7 @@
 package org.tukaani.xz;
 
 import java.io.InputStream;
-import org.tukaani.xz.simple.IA64;
+import xz.org.tukaani.xz.simple.IA64;
 
 /**
  * BCJ filter for Itanium (IA-64) instructions.

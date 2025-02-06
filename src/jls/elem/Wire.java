@@ -1,6 +1,6 @@
 package jls.elem;
 
-import jls.*;
+import org.hargisa.*;
 import java.awt.*;
 import java.awt.geom.*;
 import java.io.*;

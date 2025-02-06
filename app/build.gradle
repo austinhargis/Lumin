@@ -25,6 +25,9 @@ dependencies {
     implementation 'org.projectlombok:lombok:1.18.24'
     compileOnly 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    implementation 'org.openjfx:javafx-controls:17'
+    implementation 'org.openjfx:javafx-web:17'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

@@ -52,18 +52,18 @@ import javax.swing.WindowConstants;
 import javax.swing.event.ChangeEvent;
 import javax.swing.event.ChangeListener;
 
-import jls.edit.Editor;
-import jls.elem.Element;
-import jls.elem.LogicElement;
-import jls.elem.Memory;
-import jls.elem.OutputPin;
-import jls.elem.Register;
-import jls.elem.SubCircuit;
-import jls.sim.BatchSimulator;
-import jls.sim.InterractiveSimulator;
+import org.hargisa.edit.Editor;
+import org.hargisa.elem.Element;
+import org.hargisa.elem.LogicElement;
+import org.hargisa.elem.Memory;
+import org.hargisa.elem.OutputPin;
+import org.hargisa.elem.Register;
+import org.hargisa.elem.SubCircuit;
+import org.hargisa.sim.BatchSimulator;
+import org.hargisa.sim.InterractiveSimulator;
 
-import org.tukaani.xz.SeekableFileInputStream;
-import org.tukaani.xz.SeekableXZInputStream;
+import xz.org.tukaani.xz.SeekableFileInputStream;
+import xz.org.tukaani.xz.SeekableXZInputStream;
 
 @SuppressWarnings("serial")
 public class JLSStart extends JFrame implements ChangeListener {

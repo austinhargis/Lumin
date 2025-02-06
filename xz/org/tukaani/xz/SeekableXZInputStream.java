@@ -14,11 +14,11 @@ import java.util.ArrayList;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.EOFException;
-import org.tukaani.xz.common.DecoderUtil;
-import org.tukaani.xz.common.StreamFlags;
-import org.tukaani.xz.check.Check;
-import org.tukaani.xz.index.IndexDecoder;
-import org.tukaani.xz.index.BlockInfo;
+import xz.org.tukaani.xz.common.DecoderUtil;
+import xz.org.tukaani.xz.common.StreamFlags;
+import xz.org.tukaani.xz.check.Check;
+import xz.org.tukaani.xz.index.IndexDecoder;
+import xz.org.tukaani.xz.index.BlockInfo;
 
 /**
  * Decompresses a .xz file in random access mode. This supports decompressing

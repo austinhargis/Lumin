@@ -1,7 +1,7 @@
 package org.hargisa.elem;
 
-import jls.*;
-import jls.sim.*;
+import org.hargisa.*;
+import org.hargisa.sim.*;
 import java.awt.*;
 
 import javax.swing.*;

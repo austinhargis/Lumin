@@ -13,7 +13,7 @@ import java.io.InputStream;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.EOFException;
-import org.tukaani.xz.common.DecoderUtil;
+import xz.org.tukaani.xz.common.DecoderUtil;
 
 /**
  * Decompresses a .xz file in streamed mode (no seeking).

@@ -9,14 +9,14 @@ import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.JTabbedPane;
 
-import jls.Circuit;
-import jls.JLSInfo;
-import jls.Util;
-import jls.elem.Element;
-import jls.elem.SubCircuit;
+import org.hargisa.Circuit;
+import org.hargisa.JLSInfo;
+import org.hargisa.Util;
+import org.hargisa.elem.Element;
+import org.hargisa.elem.SubCircuit;
 
-import org.tukaani.xz.LZMA2Options;
-import org.tukaani.xz.XZOutputStream;
+import xz.org.tukaani.xz.LZMA2Options;
+import xz.org.tukaani.xz.XZOutputStream;
 
 /**
  * Adds naming and file save/saveas/close capability to an edited circuit.

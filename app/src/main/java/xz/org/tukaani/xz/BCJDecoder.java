@@ -10,7 +10,7 @@
 package xz.org.tukaani.xz;
 
 import java.io.InputStream;
-import org.tukaani.xz.simple.*;
+import xz.org.tukaani.xz.simple.*;
 
 class BCJDecoder extends BCJCoder implements FilterDecoder {
 	private final long filterID;

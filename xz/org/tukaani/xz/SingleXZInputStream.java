@@ -13,10 +13,10 @@ import java.io.InputStream;
 import java.io.DataInputStream;
 import java.io.IOException;
 import java.io.EOFException;
-import org.tukaani.xz.common.DecoderUtil;
-import org.tukaani.xz.common.StreamFlags;
-import org.tukaani.xz.index.IndexHash;
-import org.tukaani.xz.check.Check;
+import xz.org.tukaani.xz.common.DecoderUtil;
+import xz.org.tukaani.xz.common.StreamFlags;
+import xz.org.tukaani.xz.index.IndexHash;
+import xz.org.tukaani.xz.check.Check;
 
 /**
  * Decompresses exactly one XZ Stream in streamed mode (no seeking). The

@@ -10,7 +10,7 @@
 package xz.org.tukaani.xz;
 
 import java.io.IOException;
-import org.tukaani.xz.simple.SimpleFilter;
+import xz.org.tukaani.xz.simple.SimpleFilter;
 
 class SimpleOutputStream extends FinishableOutputStream {
 	private static final int TMPBUF_SIZE = 4096;

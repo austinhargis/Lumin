@@ -11,7 +11,7 @@ package xz.org.tukaani.xz;
 
 import java.io.InputStream;
 import java.io.IOException;
-import org.tukaani.xz.simple.SimpleFilter;
+import xz.org.tukaani.xz.simple.SimpleFilter;
 
 class SimpleInputStream extends InputStream {
 	private static final int TMPBUF_SIZE = 4096;

@@ -12,9 +12,9 @@ import java.util.BitSet;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-import jls.Circuit;
-import jls.JLSInfo;
-import jls.sim.Simulator;
+import org.hargisa.Circuit;
+import org.hargisa.JLSInfo;
+import org.hargisa.sim.Simulator;
 
 /**
  * Bind multiple input wires (or bundles) into a single bundle.

@@ -39,10 +39,10 @@ import javax.swing.ListSelectionModel;
 import javax.swing.SwingConstants;
 import javax.swing.WindowConstants;
 
-import jls.BitSetUtils;
-import jls.JLSInfo;
-import jls.KeyPad;
-import jls.sim.Simulator;
+import org.hargisa.BitSetUtils;
+import org.hargisa.JLSInfo;
+import org.hargisa.KeyPad;
+import org.hargisa.sim.Simulator;
 
 /**
  * A single state.

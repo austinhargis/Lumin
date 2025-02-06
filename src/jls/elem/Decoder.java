@@ -30,13 +30,13 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.WindowConstants;
 
-import jls.BitSetUtils;
-import jls.Circuit;
-import jls.JLSInfo;
-import jls.KeyPad;
-import jls.Util;
-import jls.sim.SimEvent;
-import jls.sim.Simulator;
+import org.hargisa.BitSetUtils;
+import org.hargisa.Circuit;
+import org.hargisa.JLSInfo;
+import org.hargisa.KeyPad;
+import org.hargisa.Util;
+import org.hargisa.sim.SimEvent;
+import org.hargisa.sim.Simulator;
 
 /**
  * n-input, 2^n-output decoder.

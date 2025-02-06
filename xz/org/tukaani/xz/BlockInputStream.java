@@ -14,8 +14,8 @@ import java.io.DataInputStream;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.util.Arrays;
-import org.tukaani.xz.common.DecoderUtil;
-import org.tukaani.xz.check.Check;
+import xz.org.tukaani.xz.common.DecoderUtil;
+import xz.org.tukaani.xz.check.Check;
 
 class BlockInputStream extends InputStream {
 	private final InputStream in;

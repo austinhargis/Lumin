@@ -11,8 +11,8 @@
 package xz.org.tukaani.xz.lzma;
 
 import java.io.IOException;
-import org.tukaani.xz.lz.LZDecoder;
-import org.tukaani.xz.rangecoder.RangeDecoder;
+import xz.org.tukaani.xz.lz.LZDecoder;
+import xz.org.tukaani.xz.rangecoder.RangeDecoder;
 
 public final class LZMADecoder extends LZMACoder {
 	private final LZDecoder lz;

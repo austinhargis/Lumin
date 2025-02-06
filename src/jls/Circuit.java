@@ -26,18 +26,18 @@ import java.util.TreeMap;
 
 import javax.imageio.ImageIO;
 
-import jls.edit.Editor;
-import jls.edit.SimpleEditor;
-import jls.elem.Element;
-import jls.elem.JumpStart;
-import jls.elem.LogicElement;
-import jls.elem.Output;
-import jls.elem.StateMachine;
-import jls.elem.SubCircuit;
-import jls.elem.TruthTable;
-import jls.elem.Wire;
-import jls.elem.WireEnd;
-import jls.elem.WireNet;
+import org.hargisa.edit.Editor;
+import org.hargisa.edit.SimpleEditor;
+import org.hargisa.elem.Element;
+import org.hargisa.elem.JumpStart;
+import org.hargisa.elem.LogicElement;
+import org.hargisa.elem.Output;
+import org.hargisa.elem.StateMachine;
+import org.hargisa.elem.SubCircuit;
+import org.hargisa.elem.TruthTable;
+import org.hargisa.elem.Wire;
+import org.hargisa.elem.WireEnd;
+import org.hargisa.elem.WireNet;
 
 /**
  * The main (container) class for each circuit.

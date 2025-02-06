@@ -15,9 +15,9 @@ import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.util.Arrays;
 import java.util.zip.CheckedInputStream;
-import org.tukaani.xz.common.DecoderUtil;
-import org.tukaani.xz.XZIOException;
-import org.tukaani.xz.CorruptedInputException;
+import xz.org.tukaani.xz.common.DecoderUtil;
+import xz.org.tukaani.xz.XZIOException;
+import xz.org.tukaani.xz.CorruptedInputException;
 
 public class IndexHash extends IndexBase {
 	private org.tukaani.xz.check.Check hash;

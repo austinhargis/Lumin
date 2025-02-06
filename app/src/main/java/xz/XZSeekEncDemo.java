@@ -8,7 +8,7 @@ package xz;/*
  */
 
 import java.io.*;
-import org.tukaani.xz.*;
+import xz.org.tukaani.xz.*;
 
 /**
  * Compresses a single file from standard input to standard ouput into a

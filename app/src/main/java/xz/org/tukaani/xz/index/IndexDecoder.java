@@ -12,12 +12,12 @@ package xz.org.tukaani.xz.index;
 import java.io.IOException;
 import java.io.EOFException;
 import java.util.zip.CheckedInputStream;
-import org.tukaani.xz.common.DecoderUtil;
-import org.tukaani.xz.common.StreamFlags;
-import org.tukaani.xz.SeekableInputStream;
-import org.tukaani.xz.CorruptedInputException;
-import org.tukaani.xz.MemoryLimitException;
-import org.tukaani.xz.UnsupportedOptionsException;
+import xz.org.tukaani.xz.common.DecoderUtil;
+import xz.org.tukaani.xz.common.StreamFlags;
+import xz.org.tukaani.xz.SeekableInputStream;
+import xz.org.tukaani.xz.CorruptedInputException;
+import xz.org.tukaani.xz.MemoryLimitException;
+import xz.org.tukaani.xz.UnsupportedOptionsException;
 
 public class IndexDecoder extends IndexBase {
 	private final StreamFlags streamFlags;

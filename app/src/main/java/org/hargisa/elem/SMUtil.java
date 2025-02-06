@@ -3,7 +3,7 @@ package org.hargisa.elem;
 
 import java.awt.*;
 import java.awt.geom.*;
-import jls.*;
+import org.hargisa.*;
 
 
 public class SMUtil {

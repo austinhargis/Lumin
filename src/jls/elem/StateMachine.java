@@ -53,11 +53,11 @@ import javax.swing.KeyStroke;
 import javax.swing.SwingConstants;
 import javax.swing.WindowConstants;
 
-import jls.BitSetUtils;
-import jls.Circuit;
-import jls.JLSInfo;
-import jls.sim.SimEvent;
-import jls.sim.Simulator;
+import org.hargisa.BitSetUtils;
+import org.hargisa.Circuit;
+import org.hargisa.JLSInfo;
+import org.hargisa.sim.SimEvent;
+import org.hargisa.sim.Simulator;
 
 /**
  * The state machine editor and simulation code.

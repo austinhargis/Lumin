@@ -1,7 +1,7 @@
 package jls.elem;
 
-import jls.*;
-import jls.edit.*;
+import org.hargisa.*;
+import org.hargisa.edit.*;
 
 import java.awt.*;
 import java.awt.event.*;

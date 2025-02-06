@@ -12,7 +12,7 @@ package org.tukaani.xz.rangecoder;
 
 import java.io.DataInputStream;
 import java.io.IOException;
-import org.tukaani.xz.CorruptedInputException;
+import xz.org.tukaani.xz.CorruptedInputException;
 
 public final class RangeDecoderFromBuffer extends RangeDecoder {
 	private static final int INIT_SIZE = 5;

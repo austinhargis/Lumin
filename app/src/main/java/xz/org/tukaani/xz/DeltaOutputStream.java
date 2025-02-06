@@ -10,7 +10,7 @@
 package xz.org.tukaani.xz;
 
 import java.io.IOException;
-import org.tukaani.xz.delta.DeltaEncoder;
+import xz.org.tukaani.xz.delta.DeltaEncoder;
 
 class DeltaOutputStream extends FinishableOutputStream {
 	private static final int TMPBUF_SIZE = 4096;

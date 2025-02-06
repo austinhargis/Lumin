@@ -1,6 +1,6 @@
 package org.hargisa.elem;
 
-import jls.*;
+import org.hargisa.*;
 
 import java.awt.*;
 import java.util.*;

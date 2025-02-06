@@ -8,7 +8,7 @@ package xz;/*
  */
 
 import java.io.*;
-import org.tukaani.xz.*;
+import xz.org.tukaani.xz.*;
 
 /**
  * Decompresses a .xz file in random access mode to standard output.

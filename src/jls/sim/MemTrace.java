@@ -1,6 +1,6 @@
 package jls.sim;
 
-import jls.elem.*;
+import org.hargisa.elem.*;
 import java.awt.*;
 import javax.swing.*;
 

@@ -1,8 +1,9 @@
 package org.hargisa;
 
-import jls.sim.*;
+import org.hargisa.sim.*;
 import java.awt.*;
-import javax.help.*;
+// TODO: Replace Javax.help
+//import javax.help.*;
 
 /**
  * Constants for JLS.
@@ -14,14 +15,13 @@ public final class JLSInfo {
 	// version info
 
 
-	public static final String build = "<p>[built on March 18, 2014 at 11:30 AM]";
-	public static final int vers = 4;
-	public static final int release = 1;
-	public static final int buildNum = 5;
-	public static final int year = 2014;
+	public static final String build = "<p>[built on March 18, 2025 at 11:30 AM]";
+	public static final int vers = 1;
+	public static final int release = 0;
+	public static final int buildNum = 1;
+	public static final int year = 2025;
 	
-	public static final String version = "JLS " + vers + "." + release + 
-		" (Michigan Technological University)";
+	public static final String version = "Lumin " + vers + "." + release;
 	
 	// miscellaneous parameters
 	public static final int windowsize = 600;
@@ -50,7 +50,8 @@ public final class JLSInfo {
 	public static boolean batch = false;				// batch mode
 	public static boolean printTrace = false;			// print signal trace
 	public static boolean imgexport = false;			// export image from command line
-	public static HelpBroker hb = null;
+	// TODO: Replace HelpBroker
+//	public static HelpBroker hb = null;
 	public enum Orientation { UP, DOWN, LEFT, RIGHT; }
 	public static Color gridColor = 
 		new Color(240,240,240);							// editor window grid

@@ -9,7 +9,7 @@
 
 package org.tukaani.xz;
 
-import org.tukaani.xz.lzma.LZMAEncoder;
+import xz.org.tukaani.xz.lzma.LZMAEncoder;
 
 class LZMA2Encoder extends LZMA2Coder implements FilterEncoder {
 	private final LZMA2Options options;

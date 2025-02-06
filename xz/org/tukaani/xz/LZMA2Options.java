@@ -11,8 +11,8 @@ package org.tukaani.xz;
 
 import java.io.InputStream;
 import java.io.IOException;
-import org.tukaani.xz.lz.LZEncoder;
-import org.tukaani.xz.lzma.LZMAEncoder;
+import xz.org.tukaani.xz.lz.LZEncoder;
+import xz.org.tukaani.xz.lzma.LZMAEncoder;
 
 /**
  * LZMA2 compression options.

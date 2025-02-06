@@ -1,6 +1,6 @@
 package jls;
 
-import jls.elem.*;
+import org.hargisa.elem.*;
 import java.awt.Point;
 import java.math.BigInteger;
 import java.util.*;

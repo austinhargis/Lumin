@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.zip.CheckedOutputStream;
-import org.tukaani.xz.common.EncoderUtil;
-import org.tukaani.xz.XZIOException;
+import xz.org.tukaani.xz.common.EncoderUtil;
+import xz.org.tukaani.xz.XZIOException;
 
 public class IndexEncoder extends IndexBase {
 	private final ArrayList<IndexRecord> records = new ArrayList<IndexRecord>();

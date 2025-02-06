@@ -1,8 +1,8 @@
 package org.hargisa;
 
-import jls.edit.*;
-import jls.elem.*;
-import jls.sim.*;
+import org.hargisa.edit.*;
+import org.hargisa.elem.*;
+import org.hargisa.sim.*;
 import org.hargisa.sim.InterractiveSimulator;
 
 import java.awt.*;
@@ -14,7 +14,7 @@ import java.util.zip.ZipInputStream;
 
 import javax.swing.*;
 import javax.swing.event.*;
-import javax.help.*;
+//import javax.help.*;
 
 /**
  * Applet demonstration version.

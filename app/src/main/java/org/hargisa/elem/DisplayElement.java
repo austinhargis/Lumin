@@ -1,6 +1,6 @@
 package org.hargisa.elem;
 
-import jls.*;
+import org.hargisa.*;
 
 /**
  * Superclass for "elements" that are just for display (not active).

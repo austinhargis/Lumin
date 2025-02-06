@@ -10,7 +10,7 @@
 package org.tukaani.xz;
 
 import java.io.InputStream;
-import org.tukaani.xz.simple.SPARC;
+import xz.org.tukaani.xz.simple.SPARC;
 
 /**
  * BCJ filter for SPARC.

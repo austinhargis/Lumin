@@ -10,9 +10,9 @@
 
 package xz.org.tukaani.xz.lzma;
 
-import org.tukaani.xz.lz.LZEncoder;
-import org.tukaani.xz.lz.Matches;
-import org.tukaani.xz.rangecoder.RangeEncoder;
+import xz.org.tukaani.xz.lz.LZEncoder;
+import xz.org.tukaani.xz.lz.Matches;
+import xz.org.tukaani.xz.rangecoder.RangeEncoder;
 
 public abstract class LZMAEncoder extends LZMACoder {
 	public static final int MODE_FAST = 1;

@@ -8,7 +8,7 @@
  */
 
 import java.io.*;
-import org.tukaani.xz.*;
+import xz.org.tukaani.xz.*;
 
 /**
  * Decompresses .xz files to standard output. If no arguments are given, reads

@@ -9,9 +9,9 @@ import java.util.Scanner;
 import java.util.zip.ZipInputStream;
 import java.util.zip.ZipOutputStream;
 
-import org.tukaani.xz.LZMA2Options;
-import org.tukaani.xz.XZInputStream;
-import org.tukaani.xz.XZOutputStream;
+import xz.org.tukaani.xz.LZMA2Options;
+import xz.org.tukaani.xz.XZInputStream;
+import xz.org.tukaani.xz.XZOutputStream;
 
 /**
  * 

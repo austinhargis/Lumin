@@ -1,8 +1,8 @@
 package jls.elem;
 
-import jls.*;
-import jls.elem.Group.Entry;
-import jls.sim.*;
+import org.hargisa.*;
+import org.hargisa.elem.Group.Entry;
+import org.hargisa.sim.*;
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.io.PrintWriter;

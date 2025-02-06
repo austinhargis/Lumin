@@ -13,10 +13,10 @@ import java.io.InputStream;
 import java.io.IOException;
 import java.io.EOFException;
 import java.util.zip.CRC32;
-import org.tukaani.xz.XZ;
-import org.tukaani.xz.XZFormatException;
-import org.tukaani.xz.CorruptedInputException;
-import org.tukaani.xz.UnsupportedOptionsException;
+import xz.org.tukaani.xz.XZ;
+import xz.org.tukaani.xz.XZFormatException;
+import xz.org.tukaani.xz.CorruptedInputException;
+import xz.org.tukaani.xz.UnsupportedOptionsException;
 
 public class DecoderUtil extends Util {
 	public static boolean isCRC32Valid(byte[] buf, int off, int len, int ref_off) {

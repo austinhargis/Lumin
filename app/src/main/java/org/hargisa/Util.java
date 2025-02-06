@@ -1,6 +1,6 @@
 package org.hargisa;
 
-import jls.elem.*;
+import org.hargisa.elem.*;
 import java.awt.Point;
 import java.math.BigInteger;
 import java.util.*;
@@ -268,9 +268,9 @@ public final class Util {
 	/**
 	 * Convert value to a string in the given base.
 	 * 
-	 * @param The value to convert.
+	 * @param value The value to convert.
 	 * @param base The base.
-	 * @param True if prefix or suffix needed, false if not.
+	 * @param extra True if prefix or suffix needed, false if not.
 	 * 
 	 * @return the string.
 	 */

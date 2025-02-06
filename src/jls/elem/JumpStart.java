@@ -1,8 +1,8 @@
 package jls.elem;
 
-import jls.*;
-import jls.elem.Gate.Orientation;
-import jls.sim.*;
+import org.hargisa.*;
+import org.hargisa.elem.Gate.Orientation;
+import org.hargisa.sim.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;

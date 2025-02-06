@@ -7,8 +7,8 @@ import java.io.*;
 import java.util.*;
 import javax.swing.*;
 import java.math.*;
-import jls.*;
-import jls.sim.*;
+import org.hargisa.*;
+import org.hargisa.sim.*;
 
 /**
  * Signal generator.
