@@ -15,10 +15,10 @@ public final class JLSInfo {
 	// version info
 
 
-	public static final String build = "<p>[built on March 18, 2025 at 11:30 AM]";
+	public static final String build = "<p>[built on February 5, 2025]";
 	public static final int vers = 1;
 	public static final int release = 0;
-	public static final int buildNum = 1;
+	public static final int buildNum = 0;
 	public static final int year = 2025;
 	
 	public static final String version = "Lumin " + vers + "." + release;
