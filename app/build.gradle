@@ -28,6 +28,8 @@ dependencies {
 
     implementation 'org.openjfx:javafx-controls:17'
     implementation 'org.openjfx:javafx-web:17'
+
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
